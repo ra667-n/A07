@@ -5,9 +5,16 @@
 
 /* the styles for the elements */
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -26,6 +33,9 @@ header h3 {
 header img {
 	float: left;
 }
+header {
+	border-bottom: 3px solid #931420;
+}
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
@@ -36,7 +46,8 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-}
+	border-top: 3px solid #931420; 
+     	border-bottom: 3px solid #931420; 
 main h2 {
 	color: var(--global-color-1);
 	font-size: 130%;
@@ -67,4 +78,7 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
-}
+    	border-top: 3px solid #931420; 
+    	background-color: #931420; 
+	color: white; 
+
